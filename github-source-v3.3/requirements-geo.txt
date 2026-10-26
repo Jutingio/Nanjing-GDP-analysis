@@ -1,0 +1,3 @@
+-r requirements-dev.txt
+shapely>=2.1,<3
+pyproj>=3.7,<4

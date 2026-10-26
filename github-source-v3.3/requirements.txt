@@ -1,0 +1,3 @@
+# External Python only. Blender supplies bpy; do not pip install bpy.
+Pillow>=11.1,<13
+numpy>=2.1,<3

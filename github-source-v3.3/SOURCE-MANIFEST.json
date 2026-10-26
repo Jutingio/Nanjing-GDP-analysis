@@ -1,0 +1,263 @@
+{
+  "kind": "source-only",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "b1ca5f206c82a681dab3c11fce0a11f33b08de981b34fe01cb5f4804f8d47e96"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "fbad6e4b2f4182c61bfa7f0aea939e4f0f7eb72ea955b180be2138c340dced54"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a2372c1f845ea107e4916593a081ddec68cae82a61186cfc507303d8f35c2c51"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "370b90b024b599d853bb86384a9ce69b166c5ef798c96c9346c5499a96cd9166"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0461e9cd9e76382732cc49baa9c0eb89419b94a897698ec4d8ab1750e3552d30"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0e552e5adce3fb5aaa8517e4775852c926c61d5ce6f4cfc2d53b0fa58edcf060"
+    },
+    {
+      "path": "assets/boundary-metadata.json",
+      "sha256": "1c56fc94bc9d1fb41473b74dda9e66a9f5ff252c81a6b0b6bc79fa0989dcea01"
+    },
+    {
+      "path": "assets/download-manifest.json",
+      "sha256": "268511206a612eb3217ed91925ace59f8f00eb672a2b2d13eaabf013214d6873"
+    },
+    {
+      "path": "config/example.json",
+      "sha256": "43f7e3f31fbcd76bf74a1e714b7f4bff9ebb7f30525e561fa8e4aade0d231ef6"
+    },
+    {
+      "path": "config/nanjing.json",
+      "sha256": "2b0ab64b8e6c03c8db1c3214a571ed49a56e78dadd13f43a0d26da71dbe1b4d7"
+    },
+    {
+      "path": "config/project.schema.json",
+      "sha256": "fcce92536e9d328135af47c41859ce61b20ead96284234d2031798e988ef46b8"
+    },
+    {
+      "path": "data/culture-sources.json",
+      "sha256": "00ff7052db36cb70069eaa8243924a34c66f26ec1f42a3084cffef808805d913"
+    },
+    {
+      "path": "data/examples/snapshot.json",
+      "sha256": "b058823e6337d581a75567725caea91c95af368c3a6e390930ca1c1f69051383"
+    },
+    {
+      "path": "data/nanjing-gdp-boards-2024.json",
+      "sha256": "2de6497e58313ac95ae2706721ff630fd2bcd6bfeede3da5ed0e7c09f50ffef1"
+    },
+    {
+      "path": "data/schemas/snapshot.schema.json",
+      "sha256": "9da40aa4684e69f026287a77aea7973261ec98d7c469661998b70926cfc0afc8"
+    },
+    {
+      "path": "data/snapshot.json",
+      "sha256": "6898b292cd4363763171bb9c0da5441e78f538bcb6150669c390acd4800603c3"
+    },
+    {
+      "path": "data/verified-table-values.json",
+      "sha256": "82c83a51d1ad570003874128fc9dc6e2c1597157d53ff32bf2835cbc93616636"
+    },
+    {
+      "path": "docs/city-migration.md",
+      "sha256": "e4fd54aa7a3e28940aa10a128996a32675a4003f4653b46a624d1a67c403826d"
+    },
+    {
+      "path": "docs/data-sources.md",
+      "sha256": "2634dafdec99ff270400f3148bd5d64f5ffef9412b15ff2a7c4223cea368d6f7"
+    },
+    {
+      "path": "docs/github-upload.md",
+      "sha256": "61b03d4440f413a1010ac3771ab313f3c931b0652700b1d563ca3963ae292384"
+    },
+    {
+      "path": "docs/licensing.md",
+      "sha256": "db5f1634714a6b9e8fa765f67b02136ac692956aecde904db27d966c8a1657f0"
+    },
+    {
+      "path": "docs/publishing.md",
+      "sha256": "3a9e20b85d7b471221ccbe227b43be2cecb56bcbcb91a29168bf99da5dd2be5b"
+    },
+    {
+      "path": "docs/refactor-plan.md",
+      "sha256": "13ed6d2af1b3981a95ee7575e683ade87c0170c6e6cdd0d8953d3dde04a7c83b"
+    },
+    {
+      "path": "docs/resource-manifest.json",
+      "sha256": "ab1366d8fac6e3634a15595e47dc8e6ef605ee7afc3b0f05557c947e36dc7d39"
+    },
+    {
+      "path": "docs/resources.md",
+      "sha256": "9223b8358560b9aac0a84fb3a1e5553d0cb7a9af816fd34f194405f745d38930"
+    },
+    {
+      "path": "docs/v3.3-validation.md",
+      "sha256": "825bef7159d3830b5651409519e9df58218a43bcc24d48f3f579665f2e461305"
+    },
+    {
+      "path": "docs/validation.md",
+      "sha256": "a8aebfd3da00613fb62e2461763b1319caa41d2314d81c3590a38364253610d4"
+    },
+    {
+      "path": "output/README.md",
+      "sha256": "3d944f0707951e2268adc90f34f4dd6b2e2dd815fdd43f00ca35fe49426755ef"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "b0f1a0ef1326a4e68bd75b7bea127a40e8d3c3b2e0434250abb60e71d13b3223"
+    },
+    {
+      "path": "requirements-geo.txt",
+      "sha256": "07ac42cbab4774292534debc9a2607ac017073fc0e248b3d657d2db416a42eb0"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "166e46522974610c88f4862a0372a3e02a1cb7eb8d905264e959a274e1ad04fd"
+    },
+    {
+      "path": "scripts/audit_publication.py",
+      "sha256": "964eed8e1fd3ae6f671a6a3f053e754880a15dd6b9d55174209925a5d425dbbc"
+    },
+    {
+      "path": "scripts/build_city_base.py",
+      "sha256": "3d0d43f9efddc3e578788acd4c3fc5547b0b177b0b440fd8d30dea125c23fe16"
+    },
+    {
+      "path": "scripts/build_v3.py",
+      "sha256": "d35c33bd592e45ce01f2cad0a62dd2059e3f570ca11cee8cf9d00c6e76475878"
+    },
+    {
+      "path": "scripts/cache_hud.py",
+      "sha256": "bf51cb2be196bd49598151032f81f18a11a3bf058dfb96e53f10517562892b68"
+    },
+    {
+      "path": "scripts/check_editable.py",
+      "sha256": "77dae8cb1cbc98c0a50be1f94f0c41a07bdf5fbfbf784f04ae1314b4c9ff379c"
+    },
+    {
+      "path": "scripts/create_demo_city.py",
+      "sha256": "eb6828fb6dd3ff8573bbcd3b33086a922a442f33a0f72a09a088a499d0e44cc9"
+    },
+    {
+      "path": "scripts/encode_v3.py",
+      "sha256": "8da2cc29e1b3c155be8dd3ab011cf0869d1e9014ae8188fb4273f6906a9a1aff"
+    },
+    {
+      "path": "scripts/export_source.py",
+      "sha256": "833cf052a050b5dd88ef9ab355a1547b8fc4ec6059f551047936fb4da8a6dd58"
+    },
+    {
+      "path": "scripts/finalize_preview.py",
+      "sha256": "350652e906f929ee96e5f15acef49beb27fa7bdbc510269d66aeebb22d7bdd63"
+    },
+    {
+      "path": "scripts/fix_fx_visibility.py",
+      "sha256": "69ff500e87add54b0dc9eaece03acd7a3869882c50c5225ba2d9fd2d55880245"
+    },
+    {
+      "path": "scripts/fix_map_depth.py",
+      "sha256": "c9bc45c0f09346c265c2f3785cb3099c87eceb162bc9a5e69972f365044358c3"
+    },
+    {
+      "path": "scripts/inspect_video.py",
+      "sha256": "41bed438694f08a9708b076e3cd0e4b806b0ca7dafb820f82d44df4c0794a167"
+    },
+    {
+      "path": "scripts/make_review.py",
+      "sha256": "466a8db0d0790169b3771267865a68aed96ca2d9fa5e612f1ca62eb68c34cf70"
+    },
+    {
+      "path": "scripts/prepare_city_geo.py",
+      "sha256": "e9bf2c969cb1afadc3a941e0b85ac20b0c8515b7e47012801ea1c0e1ce08900a"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "sha256": "103df7b722687140cf057ef2ad819295cfff576442a81a1fdf14b97c3f428f4f"
+    },
+    {
+      "path": "scripts/prepare_particle_sequence.py",
+      "sha256": "0502426efa321bb3e172a2d57d861f7bdfe1b4a2875c6ca52431c9811ff22e5f"
+    },
+    {
+      "path": "scripts/prepare_project.py",
+      "sha256": "7fdfae1eb5951f19a1607fd7581a6974ccc51f47b29cf2eb278ae683bf314f70"
+    },
+    {
+      "path": "scripts/render_layer_cache.py",
+      "sha256": "0f430898c6bedc21bbd963d82be3180cbb46099ad8e316e81c237cb037b64db1"
+    },
+    {
+      "path": "scripts/render_v3.py",
+      "sha256": "d8c817a6b054582d0ac388566d28d7dcb8bfc7c896f69df40688798b7b25e385"
+    },
+    {
+      "path": "scripts/validate_v3.py",
+      "sha256": "6ca7e29ce936c3c2c54b0504d8c71f595152523215d468a96ac54564ed4518c8"
+    },
+    {
+      "path": "src/city_geometry.py",
+      "sha256": "84206d6a238ee38d37d154e01dcca1e8cfcecb1ea1a59627001747706d1d6fea"
+    },
+    {
+      "path": "src/core.py",
+      "sha256": "07e2ea074f2e6017d423f09a78720619be4a163a6642ecfac58363ec83386a1a"
+    },
+    {
+      "path": "src/png_check.py",
+      "sha256": "4da672c8b2da22aaca6bf17a3bd1266cbfe3f1fbcc04f30349512a8d590a0620"
+    },
+    {
+      "path": "src/project_config.py",
+      "sha256": "1b7c779c22cf4f3599ee045ae97d61765ad608ae23de72fb3e981dfbd8def9f5"
+    },
+    {
+      "path": "src/v3_core.py",
+      "sha256": "6bda7b4b6eb888b16bc395c29a5bff972fb88b33b8a64888eb999ad023614ba2"
+    },
+    {
+      "path": "tests/test_cached_assets.py",
+      "sha256": "3f09eda7d5a5300a623202b44cc705c50681e80d58984989519f18fa7610a01b"
+    },
+    {
+      "path": "tests/test_city_geometry.py",
+      "sha256": "bfe64a24b9f87d9f3f0656042b2fb76b94537cb55512a56d4a5cf3428c59f71b"
+    },
+    {
+      "path": "tests/test_full_film.py",
+      "sha256": "4d889eaf3e00d70c11db4cac0bfa37c8a9a3eafa49f74598ac684d37faaca91f"
+    },
+    {
+      "path": "tests/test_project_config.py",
+      "sha256": "7edf92154641a4a879c27f8aeb63cc2c44a895788529a6a5face27911cdc0fc8"
+    },
+    {
+      "path": "tests/test_schemas.py",
+      "sha256": "c4595162db91d6cda579cee167489163de8b309972687ae6e7030deb79da94fe"
+    },
+    {
+      "path": "tests/test_source_export.py",
+      "sha256": "1c4088a5b3aa32a243708b46602a2abab004fb7ec309312c4e414e333a88f787"
+    },
+    {
+      "path": "tests/test_sources.py",
+      "sha256": "62d2328f17f3a0ef9f323e3a371310d20191e599cfcab569218c834cb06dde27"
+    },
+    {
+      "path": "tests/test_v3_core.py",
+      "sha256": "8cf2fae2c72041e81a24bf74d2e3f75a7571df5632f16319483a3628d2b33dba"
+    }
+  ],
+  "licenseStatus": "See docs/licensing.md; third-party assets are not included",
+  "reproduction": "Run the offline synthetic demo or prepare licensed inputs for a real city"
+}

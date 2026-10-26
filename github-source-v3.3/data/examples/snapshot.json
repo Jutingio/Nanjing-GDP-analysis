@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 31,
+  "period": "2024",
+  "dataMode": "synthetic_example",
+  "cityTotals": {
+    "gdp": {
+      "period": "2024",
+      "value": 100,
+      "sourceId": "synthetic"
+    },
+    "resident_population": {
+      "period": "2024",
+      "value": 100,
+      "sourceId": "synthetic"
+    },
+    "retail_sales": {
+      "period": "2024",
+      "value": 100,
+      "sourceId": "synthetic"
+    }
+  },
+  "regions": [
+    {
+      "code": "A",
+      "name": "示例A",
+      "period": "2024",
+      "values": {
+        "gdp": 10,
+        "resident_population": 10,
+        "retail_sales": 10
+      }
+    },
+    {
+      "code": "B",
+      "name": "示例B",
+      "period": "2024",
+      "values": {
+        "gdp": 20,
+        "resident_population": 20,
+        "retail_sales": 20
+      }
+    },
+    {
+      "code": "C",
+      "name": "示例C",
+      "period": "2024",
+      "values": {
+        "gdp": 30,
+        "resident_population": 30,
+        "retail_sales": 30
+      }
+    }
+  ],
+  "selection": {
+    "codes": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "sources": []
+}

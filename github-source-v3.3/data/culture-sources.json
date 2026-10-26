@@ -1,0 +1,49 @@
+{
+  "accessedOn": "2026-09-12",
+  "method": "Editorial paraphrases checked against official web sources; not raw HTML snapshots",
+  "history": [
+    {
+      "year": "229",
+      "text": "东吴定都建业"
+    },
+    {
+      "year": "1368",
+      "text": "明朝在此建都"
+    },
+    {
+      "year": "1912",
+      "text": "中华民国临时政府成立"
+    }
+  ],
+  "sights": [
+    {
+      "name": "中山陵",
+      "text": "孙中山先生陵寝",
+      "source": "https://zschina.nanjing.gov.cn/fjms/jqjd/zsljq/zyjd/201808/t20180823_3860682.html"
+    },
+    {
+      "name": "明孝陵",
+      "text": "世界文化遗产",
+      "source": "https://zschina.nanjing.gov.cn/fjms/jqjd/mxljq/"
+    },
+    {
+      "name": "夫子庙秦淮",
+      "text": "历史街区与水岸风光",
+      "source": "https://www.nanjing.gov.cn/zdgk/202103/t20210331_2864878.html"
+    }
+  ],
+  "historySource": "https://www.nanjing.gov.cn/zjnj/lsyg/202509/t20250919_5653028.html",
+  "photo": {
+    "file": "assets/Skyline in Nanjing (20250325).jpg",
+    "title": "Skyline in Nanjing (20250325).jpg",
+    "author": "Fumikas Sagisavas",
+    "capturedOn": "2025-03-25",
+    "source": "https://commons.wikimedia.org/wiki/File:Skyline_in_Nanjing_(20250325).jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Skyline_in_Nanjing_%2820250325%29.jpg",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "displayChanges": "Aspect-preserving upper-area UV crop inside a Blender panel; source JPEG unchanged",
+    "caption": "南京河西 · 2025 资料图片",
+    "sha256": "09712a5268c5f4a978b895624fcf1f5f42447bf52afaf50c59b2fa6539cc824b"
+  }
+}

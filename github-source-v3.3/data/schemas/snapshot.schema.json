@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Same-year city share data",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "period",
+    "cityTotals",
+    "regions",
+    "selection",
+    "sources"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer"
+    },
+    "period": {
+      "type": "string",
+      "pattern": "^\\d{4}$"
+    },
+    "cityTotals": {
+      "type": "object",
+      "properties": {
+        "gdp": {
+          "type": "object",
+          "properties": {
+            "period": {
+              "type": "string",
+              "minLength": 1
+            },
+            "value": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "sourceId": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "period",
+            "value",
+            "sourceId"
+          ],
+          "additionalProperties": false
+        },
+        "resident_population": {
+          "type": "object",
+          "properties": {
+            "period": {
+              "type": "string",
+              "minLength": 1
+            },
+            "value": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "sourceId": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "period",
+            "value",
+            "sourceId"
+          ],
+          "additionalProperties": false
+        },
+        "retail_sales": {
+          "type": "object",
+          "properties": {
+            "period": {
+              "type": "string",
+              "minLength": 1
+            },
+            "value": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "sourceId": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "period",
+            "value",
+            "sourceId"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "gdp",
+        "resident_population",
+        "retail_sales"
+      ],
+      "additionalProperties": false
+    },
+    "regions": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "period",
+          "values"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "period": {
+            "type": "string",
+            "minLength": 1
+          },
+          "values": {
+            "type": "object",
+            "properties": {
+              "gdp": {
+                "type": "number",
+                "minimum": 0
+              },
+              "resident_population": {
+                "type": "number",
+                "minimum": 0
+              },
+              "retail_sales": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "required": [
+              "gdp",
+              "resident_population",
+              "retail_sales"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "codes"
+      ],
+      "properties": {
+        "codes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 3,
+          "maxItems": 3,
+          "uniqueItems": true
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "url",
+          "rawFile",
+          "sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rawFile": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

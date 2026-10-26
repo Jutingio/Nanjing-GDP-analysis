@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "template": false,
+  "city": {
+    "id": "nanjing",
+    "name": "南京",
+    "kicker": "N A N J I N G",
+    "period": "2024"
+  },
+  "paths": {
+    "snapshot": "data/snapshot.json",
+    "culture": "data/culture-sources.json",
+    "prepared_geo": "data/geo/nanjing-prepared.json",
+    "district_geojson": "assets/nanjing-districts.geojson",
+    "city_geojson": "assets/nanjing-city.geojson",
+    "base_blend": "inputs/nanjing-base.blend",
+    "font": "assets/fonts/Noto Sans CJK Regular.woff2",
+    "earth_texture": "assets/earth.jpg",
+    "photo": "assets/Skyline in Nanjing (20250325).jpg",
+    "camera_track": "data/camera/nanjing.json",
+    "output": "output/nanjing"
+  },
+  "baseSha256": "bcb2a80a9df1878408191966321303d7dd547d982c8222328f59248c1bf6c76a",
+  "camera": {
+    "mode": "preserve",
+    "location_offset": [
+      0,
+      0,
+      0
+    ],
+    "lens_scale": 1
+  },
+  "render": {
+    "engine": "BLENDER_EEVEE",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 60,
+    "scale": 50,
+    "samples": 4,
+    "hud_samples": 16
+  },
+  "credits": {
+    "footer": "数据：南京统计局 / 南京统计年鉴2025    ·    地理：OSM / geoBoundaries 2017",
+    "assets": "地球：NASA    ·    水系：Natural Earth"
+  },
+  "geometry": {
+    "boundaryYear": 2017,
+    "status": "overview_only",
+    "sceneUnit": "km",
+    "originLonLat": [
+      118.7969,
+      32.0603
+    ],
+    "presentationOffsetM": 150
+  }
+}

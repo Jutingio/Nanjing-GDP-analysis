@@ -1,0 +1,246 @@
+{
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "template": {
+      "type": "boolean"
+    },
+    "city": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kicker": {
+          "type": "string",
+          "minLength": 1
+        },
+        "period": {
+          "type": "string",
+          "pattern": "^\\d{4}$"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "kicker",
+        "period"
+      ],
+      "additionalProperties": false
+    },
+    "paths": {
+      "type": "object",
+      "properties": {
+        "snapshot": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "culture": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "prepared_geo": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "district_geojson": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "city_geojson": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "base_blend": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "font": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "earth_texture": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "photo": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "camera_track": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        },
+        "output": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[^\\\\:]+$"
+        }
+      },
+      "required": [
+        "snapshot",
+        "culture",
+        "prepared_geo",
+        "district_geojson",
+        "city_geojson",
+        "base_blend",
+        "font",
+        "earth_texture",
+        "photo",
+        "camera_track",
+        "output"
+      ],
+      "additionalProperties": false
+    },
+    "baseSha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "camera": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "enum": [
+            "preserve",
+            "track"
+          ]
+        },
+        "location_offset": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "lens_scale": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      },
+      "required": [
+        "mode",
+        "location_offset",
+        "lens_scale"
+      ],
+      "additionalProperties": false
+    },
+    "render": {
+      "type": "object",
+      "properties": {
+        "engine": {
+          "const": "BLENDER_EEVEE"
+        },
+        "width": {
+          "const": 1920
+        },
+        "height": {
+          "const": 1080
+        },
+        "fps": {
+          "const": 30
+        },
+        "duration": {
+          "const": 60
+        },
+        "scale": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "samples": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4096
+        },
+        "hud_samples": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4096
+        }
+      },
+      "required": [
+        "engine",
+        "width",
+        "height",
+        "fps",
+        "duration",
+        "scale",
+        "samples",
+        "hud_samples"
+      ],
+      "additionalProperties": false
+    },
+    "credits": {
+      "type": "object",
+      "properties": {
+        "footer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "footer",
+        "assets"
+      ],
+      "additionalProperties": false
+    },
+    "geometry": {
+      "type": "object",
+      "properties": {
+        "boundaryYear": {
+          "type": "integer"
+        },
+        "status": {
+          "const": "overview_only"
+        },
+        "sceneUnit": {
+          "const": "km"
+        },
+        "originLonLat": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "presentationOffsetM": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "boundaryYear",
+        "status",
+        "sceneUnit",
+        "originLonLat",
+        "presentationOffsetM"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "template",
+    "city",
+    "paths",
+    "baseSha256",
+    "camera",
+    "render",
+    "credits",
+    "geometry"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Existing V3 film project configuration"
+}

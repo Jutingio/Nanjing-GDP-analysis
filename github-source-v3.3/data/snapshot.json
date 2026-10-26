@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 31,
+  "period": "2024",
+  "dataMode": "official_design_preview",
+  "sources": [
+    {
+      "id": "gdp",
+      "publisher": "南京市统计局",
+      "url": "https://tjj.nanjing.gov.cn/material/njnj_2025/quxian/17-6.html",
+      "accessedOn": "2026-09-11",
+      "rawFile": "data/sources/gdp.web-extract.txt",
+      "sha256": "935f52b0a07bbaa62d15cb479f371596d590138b7aad67c1c3835d4d1c0f51e7",
+      "acquisition": "web tool source text; values independently transcribed from first 2024 measure column",
+      "originalHtmlAvailable": false,
+      "limitation": "Direct local download returned HTTP 403"
+    },
+    {
+      "id": "resident_population",
+      "publisher": "南京市统计局",
+      "url": "https://tjj.nanjing.gov.cn/material/njnj_2025/quxian/17-3.html",
+      "accessedOn": "2026-09-11",
+      "rawFile": "data/sources/resident_population.web-extract.txt",
+      "sha256": "4296d89d677b3ffa71bd40d689cc4f883cc6b7e75d6b0c711f7ffc5ccbb56fe2",
+      "acquisition": "web tool source text; values independently transcribed from first 2024 measure column",
+      "originalHtmlAvailable": false,
+      "limitation": "Direct local download returned HTTP 403"
+    },
+    {
+      "id": "retail_sales",
+      "publisher": "南京市统计局",
+      "url": "https://tjj.nanjing.gov.cn/material/njnj_2025/quxian/17-13.html",
+      "accessedOn": "2026-09-11",
+      "rawFile": "data/sources/retail_sales.web-extract.txt",
+      "sha256": "7ab7564d70d3ee386ab9e74e5b1b3a21e355e7eca0cc7215ca75adf66da450ff",
+      "acquisition": "web tool source text; values independently transcribed from first 2024 measure column",
+      "originalHtmlAvailable": false,
+      "limitation": "Direct local download returned HTTP 403"
+    },
+    {
+      "id": "scope-notes",
+      "publisher": "南京市统计局",
+      "url": "https://tjj.nanjing.gov.cn/material/njnj_2025/shouye/bzsm.html",
+      "accessedOn": "2026-09-11",
+      "rawFile": "data/sources/scope-notes.web-extract.txt",
+      "sha256": "81d85aa689dd9308256f2a97ddbc5bcfeced01e77805d7824307d68682766280",
+      "acquisition": "web tool source text; values independently transcribed from first 2024 measure column",
+      "originalHtmlAvailable": false,
+      "limitation": "Direct local download returned HTTP 403"
+    }
+  ],
+  "cityTotals": {
+    "gdp": {
+      "period": "2024",
+      "value": 18500.81,
+      "sourceId": "gdp"
+    },
+    "resident_population": {
+      "period": "2024",
+      "value": 957.7,
+      "sourceId": "resident_population"
+    },
+    "retail_sales": {
+      "period": "2024",
+      "value": 7864.09,
+      "sourceId": "retail_sales"
+    }
+  },
+  "regions": [
+    {
+      "code": "320102",
+      "name": "玄武区",
+      "period": "2024",
+      "values": {
+        "gdp": 1368.55,
+        "resident_population": 53.72,
+        "retail_sales": 1029.49
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 7.397243688249325,
+        "resident_population": 5.609272214681006,
+        "retail_sales": 13.091025153577846
+      }
+    },
+    {
+      "code": "320104",
+      "name": "秦淮区",
+      "period": "2024",
+      "values": {
+        "gdp": 1540.17,
+        "resident_population": 74.33,
+        "retail_sales": 999.47
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 8.324878748552091,
+        "resident_population": 7.761303122063276,
+        "retail_sales": 12.709289949631808
+      }
+    },
+    {
+      "code": "320105",
+      "name": "建邺区",
+      "period": "2024",
+      "values": {
+        "gdp": 1437.5,
+        "resident_population": 54.99,
+        "retail_sales": 525.94
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 7.769930073331924,
+        "resident_population": 5.74188159131252,
+        "retail_sales": 6.68786852642836
+      }
+    },
+    {
+      "code": "320106",
+      "name": "鼓楼区",
+      "period": "2024",
+      "values": {
+        "gdp": 2140.4,
+        "resident_population": 94.31,
+        "retail_sales": 1185.35
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 11.569223185363235,
+        "resident_population": 9.847551425289756,
+        "retail_sales": 15.072945502912605
+      }
+    },
+    {
+      "code": "320113",
+      "name": "栖霞区",
+      "period": "2024",
+      "values": {
+        "gdp": 1843.15,
+        "resident_population": 101.78,
+        "retail_sales": 529.46
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 9.96253677541686,
+        "resident_population": 10.627545160279837,
+        "retail_sales": 6.732628950075598
+      }
+    },
+    {
+      "code": "320114",
+      "name": "雨花台区",
+      "period": "2024",
+      "values": {
+        "gdp": 1163.92,
+        "resident_population": 63.19,
+        "retail_sales": 582.39
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 6.291184007619126,
+        "resident_population": 6.598099613657721,
+        "retail_sales": 7.405688388612032
+      }
+    },
+    {
+      "code": "320115",
+      "name": "江宁区",
+      "period": "2024",
+      "values": {
+        "gdp": 3181.14,
+        "resident_population": 199.16,
+        "retail_sales": 1068.31
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 17.19459850676808,
+        "resident_population": 20.795656259789077,
+        "retail_sales": 13.584661416641975
+      }
+    },
+    {
+      "code": "320117",
+      "name": "溧水区",
+      "period": "2024",
+      "values": {
+        "gdp": 1110.6,
+        "resident_population": 51.42,
+        "retail_sales": 496.95
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 6.00298041004691,
+        "resident_population": 5.369113501096376,
+        "retail_sales": 6.319230832810916
+      }
+    },
+    {
+      "code": "320118",
+      "name": "高淳区",
+      "period": "2024",
+      "values": {
+        "gdp": 627.56,
+        "resident_population": 44.03,
+        "retail_sales": 227.84
+      },
+      "scopeNote": "年鉴同名区条目；地图采用2017概览边界",
+      "shares": {
+        "gdp": 3.392067698657518,
+        "resident_population": 4.597473112665761,
+        "retail_sales": 2.8972201488029765
+      }
+    }
+  ],
+  "selection": {
+    "seed": 20260911,
+    "codes": [
+      "320114",
+      "320102",
+      "320106"
+    ],
+    "method": "Python Random.sample without replacement from sorted eligible administrative codes",
+    "excluded": {
+      "320111": "浦口统计范围剔除江北直管区",
+      "320116": "六合统计范围剔除江北直管区"
+    }
+  },
+  "boundaryYear": 2017,
+  "geometryStatus": "overview_only"
+}

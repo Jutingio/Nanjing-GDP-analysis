@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software and the specific statistical and geographic sources in docs/data-sources.md."
+title: "City Geography Film: Blender + Python"
+type: software
+version: "3.3.0"
+date-released: "2026-10-26"
+authors:
+  - name: Jutingio
+    website: "https://github.com/Jutingio"
+license: MIT
+abstract: "Configuration-driven extension of a preserved Nanjing film, with a city geometry/base adapter and offline synthetic demonstration."

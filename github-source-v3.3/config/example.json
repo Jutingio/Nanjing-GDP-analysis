@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "template": true,
+  "city": {
+    "id": "example",
+    "name": "示例城市",
+    "kicker": "E X A M P L E",
+    "period": "2024"
+  },
+  "paths": {
+    "snapshot": "data/cities/example/snapshot.json",
+    "culture": "data/cities/example/culture.json",
+    "prepared_geo": "data/cities/example/prepared.json",
+    "district_geojson": "data/cities/example/districts.geojson",
+    "city_geojson": "data/cities/example/city.geojson",
+    "base_blend": "data/cities/example/base.blend",
+    "font": "assets/fonts/Noto Sans CJK Regular.woff2",
+    "earth_texture": "assets/earth.jpg",
+    "photo": "data/cities/example/photo.jpg",
+    "camera_track": "data/cities/example/camera.json",
+    "output": "output/example"
+  },
+  "baseSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "camera": {
+    "mode": "preserve",
+    "location_offset": [
+      0,
+      0,
+      0
+    ],
+    "lens_scale": 1
+  },
+  "render": {
+    "engine": "BLENDER_EEVEE",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration": 60,
+    "scale": 50,
+    "samples": 4,
+    "hud_samples": 16
+  },
+  "credits": {
+    "footer": "填写统计表、年份和地理数据署名",
+    "assets": "填写贴图与水系署名"
+  },
+  "geometry": {
+    "boundaryYear": 2017,
+    "status": "overview_only",
+    "sceneUnit": "km",
+    "originLonLat": [
+      0,
+      0
+    ],
+    "presentationOffsetM": 150
+  }
+}
